@@ -16,6 +16,10 @@ export default {
     }
   },
   mounted(){
+    // fetch("https://github.com/joaogabrielz/linktreejs/blob/master/src/Dados/Services.json")
+    // .then( res => res.json())
+    // .then( res => this.servicos = res)
+    // .catch(e => console.log(e))
     this.servicos = Dados;
   //   console.log(Dados);
    }
